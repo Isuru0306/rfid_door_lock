@@ -25,8 +25,8 @@ String inputPassword;
 #define RST_PIN 5
 
 //set wifi 
-const char* ssid = "Asha's Galaxy A21s";
-const char* password = "alov6162";
+const char* ssid = "your ssid";
+const char* password = "password";
 String apiKey = "31WCBN2E2E0FM1PH";
 const char*server="api.thingspeak.com";
 //unsigned int dataFieldOne = 1;
@@ -60,8 +60,8 @@ int relayPin(){
 //}
 
 String UserNamePassword[2][3] = {
-  {"Asha", "415c181a", "1234"},
-  {"Dilini", "", "5678"},
+  {"Isuru", "415c181a", "1234"},
+  {"Bandara", "", "5678"},
 };
 
 bool loopBreak = true;
